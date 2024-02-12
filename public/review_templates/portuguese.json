@@ -1,0 +1,163 @@
+{
+  "name": "Análise do Jogo",
+  "categories": [
+    {
+      "title": "Gráfico",
+      "type": "radio",
+      "options": [
+        "Você esquece o que é realidade",
+        "Bonito",
+        "Bom",
+        "Decente",
+        "Ruim",
+        "Não olhe por muito tempo",
+        "PS1"
+      ]
+    },
+    {
+      "title": "Jogabilidade",
+      "type": "radio",
+      "options": [
+        "Muito boa",
+        "Boa",
+        "Só apertar botões",
+        "Mehh",
+        "Melhor assistir o filme do Pelé",
+        "Simplesmente não jogue"
+      ]
+    },
+    {
+      "title": "Áudio",
+      "type": "radio",
+      "options": [
+        "Música para os ouvidos",
+        "Muito bom",
+        "Bom",
+        "Não tão ruim",
+        "Ruim",
+        "Horroroso"
+      ]
+    },
+      {
+          "title": "Público",
+          "type": "radio",
+          "options": [
+              "Infantil",
+              "Juvenil",
+              "Adulto",
+              "Terceira idade"
+          ]
+      },
+      {
+          "title": "Requisitos",
+          "type": "radio",
+          "options": [
+              "Veja se roda o paint no seu PC",
+              "PC da Xuxa",
+              "Decente",
+              "Bom",
+              "Burguês",
+              "Liga pra NASA e pede um PC de lá"
+          ]
+      },
+      {
+          "title": "Memória",
+          "type": "radio",
+          "options": [
+            "Disquete",
+            "Requer pouca",
+            "Não precisa de muita",
+            "Grande",
+            "Vai ocupar 10% do seu HD de 1TB",
+            "Vai precisar de um HD inteiro",
+            "Invista na compra de um buraco negro"
+          ]
+        },          
+      {
+          "title": "Dificuldade",
+          "type": "radio",
+          "options": [
+              "Apenas aperte 'W'",
+              "Fácil",
+              "Fácil de aprender / Difícil de ficar bom",
+              "Uso significante do cérebro",
+              "Difícil",
+              "Dark Souls"
+          ]
+      },
+      {
+          "title": "Grind",
+          "type": "radio",
+          "options": [
+              "Nenhum grind",
+              "Só se você se importa em bater recordes",
+              "Não é necessário para progredir",
+              "Vai ter grindar um pouco",
+              "Precisa de muito grind",
+              "Esqueça sua vida, você tem uma virtual agora"
+          ]
+      },
+      {
+          "title": "História",
+          "type": "radio",
+          "options": [
+              "Sem história",
+              "Um pouco de história",
+              "Mediana",
+              "Boa",
+              "Incrível",
+              "Você vai querer viver nela"
+          ]
+      },
+      {
+          "title": "Duração",
+          "type": "radio",
+          "options": [
+              "Tempo de tomar uma xícara de café",
+              "Curto",
+              "Médio",
+              "Longo",
+              "Ao infinito e além"
+          ]
+      },
+      {
+          "title": "Preço",
+          "type": "radio",
+          "options": [
+              "De graça até injeção na testa!",
+              "Vale o preço",
+              "Só vale na promoção",
+              "Se você tem um dinheiro sobrando",
+              "Não gaste seu dinheiro",
+              "Você poderia simplesmente queimar dinheiro"
+          ]
+      },
+      {
+          "title": "Bugs",
+          "type": "radio",
+          "options": [
+              "Nunca ouvi sobre",
+              "Pequenos bugs, nada demais",
+              "Bugs irritantes",
+              "Ubisoft fazendo escola",
+              "Todo tipo de bug, você encontra aqui"
+          ]
+      },
+      {
+          "title": "Nota",
+          "type": "radio",
+          "options": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+          ]
+      }
+  ]
+}
