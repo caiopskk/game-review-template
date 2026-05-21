@@ -1,163 +1,195 @@
 {
   "name": "Game Review",
   "categories": [
-      {
-          "title": "Graphics",
-          "type": "radio",
-          "options": [
-              "You forget what reality is",
-              "Beautiful",
-              "Good",
-              "Decent",
-              "Bad",
-              "Don‘t look too long at it",
-              "MS-DOS"
-          ]
-      },
-      {
-          "title": "Gameplay",
-          "type": "radio",
-          "options": [
-              "Very good",
-              "Good",
-              "It's just gameplay",
-              "Mehh",
-              "Watch paint dry instead",
-              "Just don't"
-          ]
-      },
-      {
-          "title": "Audio",
-          "type": "radio",
-          "options": [
-              "Eargasm",
-              "Very good",
-              "Good",
-              "Not too bad",
-              "Bad",
-              "I'm now deaf"
-          ]
-      },
-      {
-          "title": "Audience",
-          "type": "radio",
-          "options": [
-              "Kids",
-              "Teens",
-              "Adults",
-              "Grandma"
-          ]
-      },
-      {
-          "title": "PC Requirements",
-          "type": "radio",
-          "options": [
-              "Check if you can run paint",
-              "Potato",
-              "Decent",
-              "Fast",
-              "Rich boi",
-              "Ask NASA if they have a spare computer"
-          ]
-      },
-      {
-          "title": "Game Size",
-          "type": "radio",
-          "options": [
-            "Floppy Disk",
-            "Old Fashioned",
-            "Workable",
-            "Big",
-            "Will eat 10% of your 1TB hard drive",
-            "You will want an entire hard drive to hold it",
-            "You will need to invest in a black hole to hold all the data"
-          ]
-        },          
-      {
-          "title": "Difficulty",
-          "type": "radio",
-          "options": [
-              "Just press 'W'",
-              "Easy",
-              "Easy to learn / Hard to master",
-              "Significant brain usage",
-              "Difficult",
-              "Dark Souls"
-          ]
-      },
-      {
-          "title": "Grind",
-          "type": "radio",
-          "options": [
-              "Nothing to grind",
-              "Only if u care about leaderboards/ranks",
-              "Isn't necessary to progress",
-              "Average grind level",
-              "Too much grind",
-              "You'll need a second life for grinding"
-          ]
-      },
-      {
-          "title": "Story",
-          "type": "radio",
-          "options": [
-              "No Story",
-              "Some lore",
-              "Average",
-              "Good",
-              "Lovely",
-              "It'll replace your life"
-          ]
-      },
-      {
-          "title": "Game Time",
-          "type": "radio",
-          "options": [
-              "Long enough for a cup of coffee",
-              "Short",
-              "Average",
-              "Long",
-              "To infinity and beyond"
-          ]
-      },
-      {
-          "title": "Price",
-          "type": "radio",
-          "options": [
-              "It's free!",
-              "Worth the price",
-              "If it's on sale",
-              "If u have some spare money left",
-              "Not recommended",
-              "You could also just burn your money"
-          ]
-      },
-      {
-          "title": "Bugs",
-          "type": "radio",
-          "options": [
-              "Never heard of",
-              "Minor bugs",
-              "Can get annoying",
-              "ARK: Survival Evolved",
-              "The game itself is a big terrarium for bugs"
-          ]
-      },
-      {
-          "title": "Rating",
-          "type": "radio",
-          "options": [
-              "1",
-              "2",
-              "3",
-              "4",
-              "5",
-              "6",
-              "7",
-              "8",
-              "9",
-              "10"
-          ]
-      }
+    {
+      "title": "🎨 Graphics",
+      "type": "radio",
+      "options": [
+        "You forget what reality is",
+        "Beautiful",
+        "Good",
+        "Decent",
+        "Bad",
+        "Don't look too long at it",
+        "MS-DOS"
+      ]
+    },
+    {
+      "title": "🎮 Gameplay",
+      "type": "radio",
+      "options": [
+        "Very good",
+        "Good",
+        "It's just gameplay",
+        "Mehh",
+        "Watch paint dry instead",
+        "Just don't"
+      ]
+    },
+    {
+      "title": "🔊 Audio",
+      "type": "radio",
+      "options": [
+        "Eargasm",
+        "Very good",
+        "Good",
+        "Not too bad",
+        "Bad",
+        "I'm now deaf"
+      ]
+    },
+    {
+      "title": "👥 Audience",
+      "type": "radio",
+      "options": [
+        "Kids",
+        "Teens",
+        "Adults",
+        "Grandma"
+      ]
+    },
+    {
+      "title": "💻 PC Requirements",
+      "type": "radio",
+      "options": [
+        "Check if you can run paint",
+        "Potato",
+        "Decent",
+        "Fast",
+        "Rich boi",
+        "Ask NASA if they have a spare computer"
+      ]
+    },
+    {
+      "title": "💾 Game Size",
+      "type": "radio",
+      "options": [
+        "Floppy Disk",
+        "Old Fashioned",
+        "Workable",
+        "Big",
+        "Will eat 10% of your 1TB hard drive",
+        "You will want an entire hard drive to hold it",
+        "You will need to invest in a black hole to hold all the data"
+      ]
+    },
+    {
+      "title": "⚔️ Difficulty",
+      "type": "radio",
+      "options": [
+        "Just press 'W'",
+        "Easy",
+        "Easy to learn / Hard to master",
+        "Significant brain usage",
+        "Difficult",
+        "Dark Souls"
+      ]
+    },
+    {
+      "title": "⏳ Grind",
+      "type": "radio",
+      "options": [
+        "Nothing to grind",
+        "Only if you care about leaderboards/ranks",
+        "Isn't necessary to progress",
+        "Average grind level",
+        "Too much grind",
+        "You'll need a second life for grinding"
+      ]
+    },
+    {
+      "title": "📖 Story",
+      "type": "radio",
+      "options": [
+        "No Story",
+        "Some lore",
+        "Average",
+        "Good",
+        "Lovely",
+        "It'll replace your life"
+      ]
+    },
+    {
+      "title": "⏱️ Game Time",
+      "type": "radio",
+      "options": [
+        "Long enough for a cup of coffee",
+        "Short",
+        "Average",
+        "Long",
+        "To infinity and beyond"
+      ]
+    },
+    {
+      "title": "💰 Price",
+      "type": "radio",
+      "options": [
+        "It's free!",
+        "Worth the price",
+        "If it's on sale",
+        "If you have some spare money left",
+        "Not recommended",
+        "You could also just burn your money"
+      ]
+    },
+    {
+      "title": "🐛 Bugs",
+      "type": "radio",
+      "options": [
+        "Never heard of",
+        "Minor bugs",
+        "Can get annoying",
+        "ARK: Survival Evolved",
+        "The game itself is a big terrarium for bugs"
+      ]
+    },
+    {
+      "title": "⭐ Rating",
+      "type": "radio",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    }
+  ],
+  "finalCommentPlaceholder": "Write your final thoughts about the game...",
+  "gameNamePlaceholder": "Game name",
+  "prosLabel": "✅ Pros",
+  "consLabel": "❌ Cons",
+  "verdictLabel": "📢 Verdict",
+  "pros": [
+    "Gorgeous visuals",
+    "Tight gameplay loop",
+    "Memorable soundtrack",
+    "Compelling story",
+    "High replay value",
+    "Smooth performance",
+    "Great value for money",
+    "Active dev support"
+  ],
+  "cons": [
+    "Poor optimization",
+    "Repetitive after a while",
+    "Grindy progression",
+    "Weak story",
+    "Audio issues",
+    "Too expensive",
+    "Buggy launch",
+    "Short runtime"
+  ],
+  "verdicts": [
+    "👍 Recommended — a must-play",
+    "🤔 Mixed — good ideas, flawed execution",
+    "👎 Not Recommended — skip it",
+    "⏳ Wait for Sale — decent but overpriced",
+    "🎁 Try it Free — good for a F2P taste"
   ]
 }

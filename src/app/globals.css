@@ -1,3 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-steam-dark: #1b2838;
+  --color-steam-darker: #171a21;
+  --color-steam-blue: #66c0f4;
+  --color-steam-green: #a1cd44;
+  --color-steam-red: #d94126;
+}
