@@ -1,31 +1,40 @@
-import React from 'react';
+import { Gamepad2, Languages } from 'lucide-react';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-gray-900">
-      <div className="grid text-center lg:max-w-5xl lg:w-full lg:grid-cols-2 lg:text-left">
-        <h1 className="text-6xl font-bold mb-8 text-white text-center lg:text-left">
-          Game Reviews!
-        </h1>
+    <main className="flex min-h-screen items-center justify-center bg-steam-darker">
+      <div className="w-full max-w-2xl px-6 text-center">
+        <div className="mb-10">
+          <div className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-steam-blue/10 mb-6">
+            <Gamepad2 size={40} className="text-steam-blue" />
+          </div>
+          <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-3">
+            Steam Review Template
+          </h1>
+          <p className="text-gray-400 text-lg max-w-md mx-auto">
+            Generate formatted game reviews for Steam with ease. Pick your ratings, add comments, and copy — ready to paste.
+          </p>
+        </div>
 
-        <div className="flex flex-wrap gap-4 items-center justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
           <a
             href="/review/en"
-            className="inline-block px-6 py-3 rounded-lg border border-white transition-all duration-300 ease-in-out transform hover:bg-black hover:text-black focus:outline-none focus:shadow-outline focus:border-blue-300 flex-shrink-0 flex-grow-0 w-200"
+            className="group flex items-center gap-3 px-8 py-4 rounded-lg bg-steam-blue text-steam-darker font-bold transition-all hover:bg-sky-300 hover:scale-[1.02] active:scale-[0.98]"
           >
-            <div className="flex items-center justify-center h-full">
-              <p className="text-gray-300 text-sm">Review the game in English.</p>
-            </div>
+            <Languages size={20} />
+            English Review
           </a>
-
           <a
             href="/review/pt"
-            className="inline-block px-6 py-3 rounded-lg border border-white transition-all duration-300 ease-in-out transform hover:bg-black hover:text-black focus:outline-none focus:shadow-outline focus:border-blue-300 flex-shrink-0 flex-grow-0 w-200"
+            className="group flex items-center gap-3 px-8 py-4 rounded-lg bg-gray-800 text-white font-bold border border-gray-700 transition-all hover:bg-gray-700 hover:border-gray-600 hover:scale-[1.02] active:scale-[0.98]"
           >
-            <div className="flex items-center justify-center h-full">
-              <p className="text-gray-300 text-sm">Fazer análise em Português.</p>
-            </div>
+            <Languages size={20} />
+            Análise em Português
           </a>
+        </div>
+
+        <div className="mt-12 text-sm text-gray-500">
+          No account needed. Works entirely in your browser.
         </div>
       </div>
     </main>
